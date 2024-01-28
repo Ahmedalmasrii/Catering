@@ -1,0 +1,114 @@
+body {
+  background-image: url(Kontakt-bakgrundsbild.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover, 100%;
+  background-position: center;
+}
+
+main {
+  justify-content: center;
+  display: center;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+  font-family: Merriweather, serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  width: 80%;
+  padding: 10px;
+}
+
+.kundinfo_box {
+  display: flex;
+}
+.kundinfo_box #kundinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c87a31;
+  border-radius: 43px;
+  color: #fff;
+  width: 70%;
+  padding: 20px;
+}
+
+#paket {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c87a31;
+  border-radius: 43px;
+  color: #fff;
+  width: 70%;
+  padding: 20px;
+}
+#paket h2 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Merriweather, serif;
+}
+
+#kundinfo2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #c87a31;
+  border-radius: 43px;
+  color: #fff;
+  width: 70%;
+  padding: 20px;
+}
+
+textarea {
+  width: 12em;
+  height: 8em;
+  color: rgb(201, 196, 189);
+  border-color: #c87a31;
+  border-radius: 2px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+label {
+  font-family: Merriweather, serif;
+}
+
+@media screen and (min-width: 768px) {
+  #kundinfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

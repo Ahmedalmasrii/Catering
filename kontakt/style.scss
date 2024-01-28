@@ -1,0 +1,110 @@
+@import "../variables";
+@import "../breakpoints";
+@import "../mixin";
+
+body {
+  background-image: url(Kontakt-bakgrundsbild.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover, 100%;
+  background-position: center;
+}
+
+main {
+  justify-content: center;
+  display: center;
+}
+
+h1 {
+  @include heading-style;
+  font-family: $text-font;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-color;
+  width: 80%;
+  padding: 10px;
+}
+
+.kundinfo_box {
+  display: flex;
+
+  #kundinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $primary-color;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $border-color;
+    border-radius: 43px;
+    color: $text-color;
+    width: 70%;
+    padding: 20px;
+  }
+}
+
+#paket {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $primary-color;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $border-color;
+  border-radius: 43px;
+  color: $text-color;
+  width: 70%;
+  padding: 20px;
+
+  h2 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: $text-font;
+  }
+}
+
+#kundinfo2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $primary-color;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $border-color;
+  border-radius: 43px;
+  color: $text-color;
+  width: 70%;
+  padding: 20px;
+}
+
+textarea {
+  width: 12em;
+  height: 8em;
+  color: rgb(201, 196, 189);
+  border-color: $border-color;
+  border-radius: 2px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+label {
+  font-family: $text-font;
+}
+
+@media screen and (min-width: $desktop-screen) {
+  #kundinfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}

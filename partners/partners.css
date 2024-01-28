@@ -1,0 +1,171 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover, 100%;
+}
+
+.partners_rubrik {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+  font-family: Merriweather, serif;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+}
+
+h2 {
+  font-family: Merriweather, serif;
+  color: #fff;
+}
+
+.box {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.box .box_kort_kött {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 2px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 43px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_kött .kött_kort_innehåll img {
+  font-family: Merriweather, serif;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 43px;
+}
+.box .box_kort_kött .kött_kort_innehåll .box_kött_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  margin: 5px;
+  line-height: 2em;
+}
+.box .box_kort_vegi {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 2px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 43px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_vegi .vegi_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 43px;
+}
+.box .box_kort_vegi .vegi_kort_innehåll .box_vegi_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  margin: 5px;
+  line-height: 2em;
+}
+.box .box_kort_fisk {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 2px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 43px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_fisk .fisk_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 43px;
+}
+.box .box_kort_fisk .fisk_kort_innehåll .box_fisk_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  margin: 5px;
+  line-height: 2em;
+}
+.box .box_kort_mejeri {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 2px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 43px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_mejeri .mejeri_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 43px;
+}
+.box .box_kort_mejeri .mejeri_kort_innehåll .box_mejeri_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  margin: 5px;
+  line-height: 2em;
+}
+.box .box_kort_torrvaror {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 2px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 43px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.box .box_kort_torrvaror .torrvaror_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 43px;
+}
+.box .box_kort_torrvaror .torrvaror_kort_innehåll .box_torrvaror_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  margin: 5px;
+  line-height: 2em;
+}
+
+@media screen and (min-width: 820px) {
+  .box img {
+    float: left;
+    padding-right: 5px;
+  }
+  .box h2 {
+    padding-top: 50px;
+  }
+}/*# sourceMappingURL=partners.css.map */

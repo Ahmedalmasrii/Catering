@@ -1,0 +1,77 @@
+@import '../variables';
+@import '../breakpoints';
+@import '../mixin';
+
+.background-container {
+    background-image: url(../bilder/nyheter-background.webp);
+    background-size: cover, 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    color: $text-color;
+}
+
+.nyheter-rubrik {
+    @include heading-style;
+    font-family: $text-font;
+}
+
+.main-nyheter {
+    background-color: transparent;
+}
+
+.news-container {
+    padding: 2em;
+    width: 90%;
+}
+
+.news-button {
+    display: none;
+}
+
+.news-label {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+    border:1px solid $border-color;
+    color: $text-color;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 2em;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: $text-font;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.arrow {
+    margin-right: 5%;
+    color: $border-color;
+}
+
+.news-content {
+    display: none;
+    padding: 10px;
+    text-align: justify;
+    background-color: $primary-color;
+    border-radius: 20px;
+}
+
+.news-button:checked + .news-label + .news-content {
+    display: block;
+}
+
+@media screen and (min-width: 820px){
+.news-container {
+    width: 50%;
+}
+
+.three-news-block {
+    margin-top: 10%;
+    margin-bottom: 18%;
+}
+}

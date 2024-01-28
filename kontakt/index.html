@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../nav.css" />
+    <link rel="stylesheet" href="../footer.css" />
+    <link rel="stylesheet" href="/kontakt/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <div class="logo">
+        <img class="logo-img" src="/bilder/Ny-logo-bild.png" alt="Vår logga" />
+      </div>
+      <p class="restaurang-namn">Resto Culinair</p>
+      <ul class="links">
+        <li><a href="/startsida.html" class="active"> Hem </a></li>
+        <li><a href="/partners/index.html"> Partners </a></li>
+        <li><a href="/nyheter/index.html"> Nyheter </a></li>
+        <li><a href="/meny/index.html"> Meny</a></li>
+        <li><a href="/prislista/"> Prislista </a></li>
+        <li><a href="/kontakt/index.html"> Kontakt</a></li>
+      </ul>
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <main>
+      <h1>Kontakta oss</h1>
+      <section class="kundinfo_box">
+        <form id="kundinfo">
+          <label for="förnamn">Förnamn</label>
+          <input type="text" id="förnamn" />
+
+          <label for="efternamn">Efternamn</label>
+          <input type="text" id="efternamn" />
+
+          <label for="adress">Adress</label>
+          <input type="text" id="adress" />
+
+          <label for="postnummer">Postnummer</label>
+          <input type="text" id="postnummer" />
+
+          <label for="stad">Stad</label>
+          <input type="text" id="stad" />
+        </form>
+      </section>
+
+      <section>
+        <form id="paket">
+          <h2>Välj paket</h2>
+
+          <label for="paket1">Paket 1</label>
+          <input type="checkbox" id="paket1" />
+          <label for="paket2">Paket 2</label>
+          <input type="checkbox" id="paket" />
+          <label for="paket3">Paket 3</label>
+          <input type="checkbox" id="paket3" />
+          <label for="varmrätt">Val av varmrätt</label>
+          <input type="text" id="val" />
+        </form>
+      </section>
+      <section>
+        <form id="kundinfo2">
+          <label for="telefonnummer">Telefonnummer</label>
+          <input type="text" id="telefonnummer" />
+          <label for="mejl">Mejl</label>
+          <input type="text" id="mejl" />
+          <label for="betalmetod">Betalmetod</label>
+          <input type="text" id="betalmetod" />
+          <label for="övrigt">Övrigt</label>
+          <textarea form="form_id">
+Här kan du skriva in allergier eller andra önskemål
+              </textarea
+          ><br />
+          <input type="submit" />
+        </form>
+      </section>
+
+      <footer>
+        <ul>
+          <li>Öppettider:</li>
+          <li>Måndag - fredag: 09:00 - 16:00</li>
+          <li>Lördag - Söndag: Stängt</li>
+        </ul>
+        <ul>
+          <li>Kontakt:</li>
+          <li>Email: restoculinair@grupp1.se</li>
+          <li>Telefon: +0123 456 789</li>
+        </ul>
+
+        <ul>
+          <li>Följ oss:</li>
+          <li class="instagram">
+            <a
+              aria-label="länk till instagram"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="facebook">
+            <a
+              aria-label="länk till facebook"
+              href="https://www.facebook.com/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

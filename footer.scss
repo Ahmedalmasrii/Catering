@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'breakpoints';
+@import 'mixin';
+*{
+    font-family: $nav_foot-font;
+}
+footer {
+    background-color: $navFooter-color;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2em;
+  ul{
+    list-style: none;
+    li {
+      display: flex;
+      justify-content: center;
+      margin-right: 2px;
+      color: $text-color;
+      padding-top: 15px;
+    }
+  }
+  }
+
+  .fa-brands {
+
+font-size: 30px;
+color: white;
+  }
+  
+  @media screen and (min-width: 820px) {
+    footer {
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+  }

@@ -1,0 +1,82 @@
+.background-container {
+  background-image: url(../bilder/nyheter-background.webp);
+  background-size: cover, 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+}
+
+.nyheter-rubrik {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+  font-family: Merriweather, serif;
+}
+
+.main-nyheter {
+  background-color: transparent;
+}
+
+.news-container {
+  padding: 2em;
+  width: 90%;
+}
+
+.news-button {
+  display: none;
+}
+
+.news-label {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 1px solid #c87a31;
+  color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 2em;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Merriweather, serif;
+  box-sizing: border-box;
+  width: 90%;
+}
+
+.arrow {
+  margin-right: 5%;
+  color: #c87a31;
+}
+
+.news-content {
+  display: none;
+  padding: 10px;
+  text-align: justify;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border-radius: 20px;
+}
+
+.news-button:checked + .news-label + .news-content {
+  display: block;
+}
+
+@media screen and (min-width: 820px) {
+  .news-container {
+    width: 50%;
+  }
+  .three-news-block {
+    margin-top: 10%;
+    margin-bottom: 18%;
+  }
+}/*# sourceMappingURL=style.css.map */
